@@ -1,0 +1,43 @@
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+table, td {
+    width: 100%;
+    border: 1px solid black;
+}
+td {
+    width: 80px;
+    height: 90px;
+    padding: 0;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+} 
+img {
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+}
+.parent {
+    text-align: center;
+    
+}
+.wrapper, .points {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.points {
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 0.7rem;
+}
+
+.kingPiece {
+    width: 70px;
+    height: 70px;
+}
+
